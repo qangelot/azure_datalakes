@@ -4,8 +4,7 @@
 
 ## Objectifs
 
-* Adapt the python scripts to import all the files in a local directory by
-respecting the initial structure on an azure data lake storage
+Adapter les scripts python pour importer tous les fichiers dans un répertoire local en respectant la structure initiale sur un stockage azure data lake.
 
 ## Etapes
 
@@ -19,7 +18,7 @@ Enfin, on construit un script pour uploader les fichiers sur le blob storage azu
 * Pour faire cela, on utilise la méthode os.walk qui liste tous les chemins des tous les fichiers dans le directory.
 ![image](https://user-images.githubusercontent.com/57401552/201712832-44b66dda-a5cc-4a1e-b53e-8cec95b30561.png)
 
-* Ensuite, la méthode upload_blob est utilisé pour upload chaque fichier sur le blob azure
+* Ensuite, la méthode upload_blob est utilisé pour upload chaque fichier sur le blob azure.
  ![image](https://user-images.githubusercontent.com/57401552/201713241-3838c24f-832e-4914-a61f-48cefedf7f48.png)
 
 

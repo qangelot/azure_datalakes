@@ -25,7 +25,12 @@ Enfin, on construit un script pour uploader les fichiers sur le blob storage azu
  
  ### ETL sur la data factory
  
- Cf video
+Cf video
+ 
+Ici, on peut concaténer les csv et changer le nom de colonne en stock_name sans utiliser de batch activity, juste avec copy data grâce aux fonctionnalités de bases dans data factory. Sinon, on peut utiliser le fichier etl.py dans batch activity.
+
+![image](https://user-images.githubusercontent.com/57401552/210833575-9d651dd8-f523-4c99-8e7e-3293883ce5e6.png)
+
  
  ### Analyse sur Databricks 
  

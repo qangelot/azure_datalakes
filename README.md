@@ -8,6 +8,8 @@ Adapter les scripts python pour importer tous les fichiers dans un répertoire l
 
 ## Etapes
 
+### Upload les données sur Azure 
+
 Tout d'abord il est nécessaire de créer un ressource group sur Azure. Nous n'avons pas les droits pour réaliser cette action. Ainsi, nous allons utliser le ressource groupe "DP-100-DataLakes".
 
 Ensuite, on créé un compte de stockage sur ce ressource group, grâce au fichier provision_blob.py et notamment grâce à la méthode begin_create :  
@@ -20,5 +22,14 @@ Enfin, on construit un script pour uploader les fichiers sur le blob storage azu
 
 * Ensuite, la méthode upload_blob est utilisé pour upload chaque fichier sur le blob azure.
  ![image](https://user-images.githubusercontent.com/57401552/201713241-3838c24f-832e-4914-a61f-48cefedf7f48.png)
+ 
+ ### ETL sur la data factory
+ 
+ Cf video
+ 
+ ### Analyse sur Databricks 
+ 
+ Cf notebook
+
 
 
